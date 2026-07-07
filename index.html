@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maquette de site vitrine pour Au Fournil Yssingelais, boulangerie-patisserie artisanale a Yssingeaux."
+    />
+    <title>Au Fournil Yssingelais | Boulangerie artisanale a Yssingeaux</title>
+    <link rel="icon" href="assets/logo-fy.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#accueil" aria-label="Accueil Au Fournil Yssingelais">
+        <img src="assets/logo-fy.jpg" alt="" />
+        <span>Au Fournil Yssingelais</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="#maison">La maison</a>
+        <a href="#produits">Produits</a>
+        <a href="#avis">Avis</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil" aria-label="Accueil">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/patisserie-fruits.jpg" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Boulangerie - Patisserie - Snacking</p>
+          <h1>Au Fournil Yssingelais</h1>
+          <p class="hero-lead">
+            Pains au levain, viennoiseries maison, patisseries et douceurs traiteur prepares
+            chaque jour au coeur d'Yssingeaux.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Commander ou appeler</a>
+            <a class="btn btn-secondary" href="#produits">Voir les gourmandises</a>
+          </div>
+          <dl class="hero-facts" aria-label="Informations rapides">
+            <div>
+              <dt>Specialite</dt>
+              <dd>Pain au levain</dd>
+            </div>
+            <div>
+              <dt>Adresse</dt>
+              <dd>16 av. du 8 Mai 1945</dd>
+            </div>
+            <div>
+              <dt>Ouverture</dt>
+              <dd>Lundi au samedi</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section intro" id="maison">
+        <div class="section-heading">
+          <p class="eyebrow">Coeur d'artisans</p>
+          <h2>Une boulangerie de proximite, attachee au fait maison.</h2>
+        </div>
+        <div class="intro-grid">
+          <div class="intro-copy">
+            <p>
+              Au Fournil Yssingelais accueille les habitants d'Yssingeaux avec une offre
+              artisanale pensee pour tous les moments de la journee : pain du quotidien,
+              viennoiseries du matin, pause dejeuner et patisseries a partager.
+            </p>
+            <p>
+              La maison met en avant des produits frais, des recettes traditionnelles et une
+              fabrication maison, portees par Richard et Angelique Montchalin et leur equipe.
+            </p>
+          </div>
+          <div class="signature-panel">
+            <img src="assets/pains-levain.jpg" alt="Pains au levain d'Au Fournil Yssingelais" />
+            <div>
+              <strong>Le geste qui signe la maison</strong>
+              <span>Pains croustillants, fermentation soignee, service simple et chaleureux.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section products" id="produits">
+        <div class="section-heading compact">
+          <p class="eyebrow">La selection</p>
+          <h2>Du fournil a la pause gourmande</h2>
+        </div>
+        <div class="product-grid">
+          <article class="product-card featured-product">
+            <img src="assets/pains-levain.jpg" alt="Boules de pain au levain" />
+            <div>
+              <span>Pain</span>
+              <h3>Pains au levain</h3>
+              <p>Une mie genereuse, une croute bien marquee et du gout pour accompagner les repas.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/eclairs.jpg" alt="Eclairs glaces" />
+            <div>
+              <span>Patisserie</span>
+              <h3>Gourmandises maison</h3>
+              <p>Entremets, eclairs, tartes et creations de saison pour les envies sucrees.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="graphic-tile viennoiserie" aria-hidden="true">05h</div>
+            <div>
+              <span>Matin</span>
+              <h3>Viennoiseries</h3>
+              <p>Croissants, pains au chocolat et douceurs a emporter des l'ouverture.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="graphic-tile snack" aria-hidden="true">Wrap</div>
+            <div>
+              <span>Dejeuner</span>
+              <h3>Traiteur & snacking</h3>
+              <p>Wraps, formules rapides et recettes salees pour une pause pratique et fraiche.</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="graphic-tile confiserie" aria-hidden="true">FY</div>
+            <div>
+              <span>Cadeau</span>
+              <h3>Macarons & confiseries</h3>
+              <p>Petites attentions colorees pour offrir, recevoir ou simplement se faire plaisir.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="avis">
+        <div class="section-heading compact">
+          <p class="eyebrow">Avis clients</p>
+          <h2>Les habitudes qui reviennent</h2>
+        </div>
+        <div class="testimonial-grid">
+          <figure>
+            <blockquote>
+              "Le pain au levain tient vraiment bien et les patisseries sont toujours soignees."
+            </blockquote>
+            <figcaption>Claire M., Yssingeaux</figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              "Pratique pour le midi : accueil rapide, choix sale et viennoiseries encore tiedes."
+            </blockquote>
+            <figcaption>Julien R., Haute-Loire</figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              "Une adresse de quartier fiable, avec de beaux produits maison pour le week-end."
+            </blockquote>
+            <figcaption>Anne-Sophie L.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-content">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Une commande, une question, un gateau a reserver ?</h2>
+            <p>
+              Appelez la boulangerie ou passez directement au 16 avenue du 8 Mai 1945 a
+              Yssingeaux. Le formulaire ci-dessous sert de maquette et n'envoie pas encore de
+              message.
+            </p>
+            <div class="contact-list">
+              <a href="tel:+33471650614">04 71 65 06 14</a>
+              <a href="mailto:aufournilyssingelais@gmail.com">aufournilyssingelais@gmail.com</a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=16%20avenue%20du%208%20mai%201945%2043200%20Yssingeaux"
+                target="_blank"
+                rel="noreferrer"
+              >
+                16 avenue du 8 Mai 1945, 43200 Yssingeaux
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" aria-label="Formulaire de contact de maquette">
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" autocomplete="name" />
+            </label>
+            <label>
+              Telephone
+              <input type="tel" name="phone" placeholder="06 00 00 00 00" autocomplete="tel" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Votre demande"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Preparer ma demande</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Au Fournil Yssingelais</span>
+      <span>Boulangerie artisanale a Yssingeaux</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
